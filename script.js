@@ -141,9 +141,10 @@ function handleFileSelect() {
       group.add(image);
         layer.add(group);
         layer.draw();
+        addClickEventForTransformer()
       };
+      
     };
     reader.readAsDataURL(file);
-    
-    addClickEventForTransformer()
+  
 }
